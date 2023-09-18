@@ -1,0 +1,178 @@
+$pri-color:rgba(32, 97, 60, 0.796);
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+body{
+    background-color: white;
+}
+#navbar{
+    background-color: $pri-color;
+    
+    img{
+        width: 70px;
+        height: 70px;
+    border-radius: 100%;
+   margin-top: -15px;
+   
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    li{
+        margin: 40px;
+        color: white;
+       
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    a:hover{
+        background-color: white;
+        color: $pri-color;
+        padding: 18px;
+    }
+}
+.first-container{
+    background: url('./img/one-man-holding-ripe-carrot-fresh-organic-generated-by-ai.jpg') center center/cover;
+    height: 70vh;
+    margin-top: -50px;
+    .dine{
+        padding: 20vh;
+        text-align: center;
+    }
+    button{
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 30px;
+        border-inline-color: rgb(77, 251, 77);
+        background-color: white;
+        color: $pri-color;
+        font-weight: bolder;
+    }
+    button:hover{
+        background-color: black;
+        
+    }
+h1{
+font-size: 55px;
+}
+    
+}
+.second-container{
+   
+    margin: 100px;
+    h2{
+        text-align: center;
+        color: $pri-color;
+        font-size: 60px;
+        margin: 20px;
+    }
+    span{
+        color: white;
+        font-size: 40px;
+        background-color: $pri-color;
+        padding: 15px;
+        border-radius: 20px;
+        
+    }
+    .images{
+        display: grid;
+        display: grid;
+grid-template-columns: 200px 350px 450px ;
+grid-template-rows: 300px 300px;
+justify-content: space-between;
+column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center; 
+    
+   
+    }
+    #length{
+     h4{
+        background-color: rgba(127, 26, 4, 0.871);
+     }
+        h5{
+            color: white;
+        }
+       
+    }
+    #potato{
+        background: url('./img/assortment-vegetables-green-herbs-market-vegetables-basket.jpg') center center/cover;
+    }
+    #square{
+        h4{
+            background-color: rgba(165, 42, 42, 0.481);
+            opacity: 0.9;
+        }
+        background: url('./img/chuttersnap-PYBmNk304G4-unsplash.jpg') center center/cover;
+    }
+    #rectangular{
+        h4{
+            margin-top: 220px;
+            background-color: rgba(241, 221, 70, 0.752);
+        }
+        width: 1024px;
+        background: url('./img/potato-sack-isolated-white.jpg') center center/cover;
+    }
+    .agric{
+        box-shadow: 1px 1px 1px 2px rgb(160, 153, 153);
+        h5{
+            color: $pri-color;
+        font-size: 30px;
+        text-align: end;
+        }
+        background-color: $pri-color;  
+        background: url('./img/top-view-cereal-mix.jpg') center center/cover;
+        
+        h4{
+            background-color: $pri-color;
+            padding: 15px;
+            position: relative;
+            margin-top: 250px;   
+            
+        }
+        
+    }
+}
+.third-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+h3{
+    color: $pri-color;
+}
+    img{
+        width: 250px;
+        height: 250px;
+        border: none;
+        background-color: $pri-color;
+        border: 1px solid rgb(217, 213, 213);
+        box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+    h5{
+        line-height: 1.8rem;
+        text-align: center;
+        color: $pri-color;
+    }
+    button{ 
+        border: 2px solid $pri-color;
+        width: 150px;
+       height: 45px;
+       line-height: 2rem;
+       background-color: $pri-color;
+       border-radius: 4px;
+       margin-left: 40px;
+       font-weight: lighter;
+        
+    }
+}
